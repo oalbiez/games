@@ -1,0 +1,64 @@
+questions:
+
+- title: Fun
+  icon: 1f3a2.svg
+  ok: Nous aimons être en famille et vivre ensemble.
+  ko: On se dispute entre nous ou on s'ennuie.
+
+- title: Apprentissage
+  icon: 1f4da.svg
+  ok: Nous apprenons à chaque instant quelque chose d'intéressant.
+  ko: Nous n'avons jamais le temps d'apprendre quoi que ce soit.
+
+- title: Respect
+  icon: 262e.svg
+  ok: Nous nous respectons et nous sommes attentifs au besoins des autres.
+  ko: Insultes, vexations, dédains.
+
+- title: Travail commun
+  icon: 1f374.svg
+  ok: Tout le monde participe à la vie commune.
+  ko: C'est toujours les mêmes qui fonts.
+
+- title: Solidarité
+  icon: 1f468-1f469-1f466-1f466.svg
+  ok: On peut compter les uns sur les autres et on s'entraide.
+  ko: Chacun pour soi.
+
+- title: Vélocité
+  icon: 1f3ce.svg
+  ok: Nous faisons immédiatement ce que nous avons décidé. Pas d'attente, pas de délai.
+  ko: Nous ne finissons jamais rien. Nous sommes systématiquement bloqués ou interrompus.
+
+- title: Acteurs... ou pions...
+  icon: 1f3b3.svg
+  ok: Nous contrôlons notre destin. Nous décidons ce que nous faisons.
+  ko: Nous ne sommes que des pions, et nous n'avons pas d'influence sur ce que nous faisons.
+
+- title: Hygiène
+  icon: 1f6bf.svg
+  ok: Nous sommes propres et nous faisons attention à ne pas salir notre environement.
+  ko: Nous sommes sales et nous salissons tout autour de nous.
+
+- title: Repas équilibrés
+  icon: 1f33d.svg
+  ok: Nous mangeons de tout et avons une alimentation équilibrée.
+  ko: Nous râlons sur ce qu'il y a à manger et mangeons n'importe quoi.
+
+- title: Gaspillage
+  icon: 1f5d1.svg
+  ok: Nous faisons attention à nos affaires et évitons de gaspiller.
+  ko: Nous gaspillons et ne prenons pas soin de nos affaires.
+
+answers:
+- icon: 1f60c.svg
+  text: Ce n'est pas forcément parfait mais c'est satisfaisant.
+  border: "ok_color"
+
+- icon: 1f61f.svg
+  text: Il y a des problèmes importants qui nécéssitent de l'attention.
+  border: "warning_color"
+
+- icon: 1f62b.svg
+  text: La situation est critique et il faut agir immédiatement.
+  border: "ko_color"

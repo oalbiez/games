@@ -1,0 +1,34 @@
+
+#dpi: 300
+antialias: best
+
+# Text hints are used to show the boundaries of text boxes.
+# Can be enabled/disabled at the command-level, or set globally with `set`
+#text_hint: '#F00'
+
+# Show progress bars on the command line for potentially long-running operations
+#progress_bars: true
+
+#Enable some custom colors that can be used in any color
+#custom_colors:
+#  foo: '#abc'
+
+custom_colors:
+  lightgray: '#f2f2f2'
+  ok_color: '#c6f1e7'
+  warning_color: '#ffe5c1'
+  ko_color: '#f5d6db'
+
+img_dir: ../common/images
+
+warn_ellipsize: true
+warn_png_scale: true
+
+
+
+#- Bleu (1) : 3D7890
+#- Rouille (2) : C47401
+#- Rouge (3) : CD3349
+#- Violet (4) : 8F074B
+#- Vert (5) : 1E7C66
+#- Anthracite (6) : 3B3B3B

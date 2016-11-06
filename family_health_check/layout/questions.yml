@@ -1,0 +1,69 @@
+
+art_section:
+  x: 585
+  y: 245
+  radius: 125
+  stroke_width: 0
+
+art:
+  x: 510
+  y: 170
+  width: 150
+  height: 150
+  align: center
+  valign: middle
+
+title:
+  x: 120
+  y: 120
+  width: 335
+  height: 250
+  align: center
+  valign: middle
+  font: "Linux Biolinum O; bold"
+  font_size: 30
+
+section:
+  x: 120
+  width: 170
+  height: 285
+  radius: 16
+  stroke_width: 0
+
+icon:
+  x: 135
+  width: 140
+  height: 140
+
+text:
+  x: 305
+  width: 420
+  height: 275
+  valign: middle
+  font_size: 28
+  font: "Linux Biolinum O"
+  markup: true
+
+ok_section:
+  extends: section
+  y: 405
+
+ok_icon:
+  extends: icon
+  y: 478
+
+ok_text:
+  extends: text
+  y: 410
+
+ko_section:
+  extends: section
+  y: 705
+
+ko_icon:
+  extends: icon
+  y: 778
+
+ko_text:
+  extends: text
+  y: 710
