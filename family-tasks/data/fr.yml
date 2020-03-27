@@ -1,0 +1,241 @@
+- title: Vider lave vaisselle
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#3D9970"
+  description: |
+    - vider le lave vaisselle
+    - veiller à ce que l'évier soit vidé
+
+
+- title: Nettoyer l'évier
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#3D9970"
+  description: |
+    - laver l'évier
+    - ranger la vaiselle sèche
+    - nettoyer la bonde
+
+
+- title: Nettoyer l'évier
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#3D9970"
+  description: |
+    - laver l'évier
+    - ranger la vaiselle sèche
+    - nettoyer la bonde
+
+
+- title: Nettoyer l'évier
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#3D9970"
+  description: |
+    - laver l'évier
+    - ranger la vaiselle sèche
+    - nettoyer la bonde
+
+
+- title: Nettoyer plan de travail
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#3D9970"
+  description: |
+    - Nettoyer l'ilot central
+    - Nettoyer le plan autour de l'évier
+
+
+- title: Nettoyer plan de travail
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#3D9970"
+  description: |
+    - Nettoyer l'ilot central
+    - Nettoyer le plan autour de l'évier
+
+
+- title: Nettoyer plan de travail
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#3D9970"
+  description: |
+    - Nettoyer l'ilot central
+    - Nettoyer le plan autour de l'évier
+
+
+- title: Nettoyer table
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#3D9970"
+  description: |
+    - Nettoyer la table
+    - Nettoyer le plan près de la huche à pain
+
+
+- title: Nettoyer table
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#3D9970"
+  description: |
+    - Nettoyer la table
+    - Nettoyer le plan près de la huche à pain
+
+
+- title: Nettoyer table
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#3D9970"
+  description: |
+    - Nettoyer la table
+    - Nettoyer le plan près de la huche à pain
+
+
+- title: Vider les poubelles plastiques
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#2ECC40"
+  description: |
+    - Mettre dehors
+
+
+- title: Vider les poubelles cartons
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#2ECC40"
+  description: |
+    -- Mettre dehors dans la poubelle bleu
+
+    -- Casser les boites pour minimiser la place
+
+    -- Tasser dans la poubelle
+
+
+- title: Vider les poubelles dechets
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#2ECC40"
+  description: |
+    - Mettre dehors dans la poubelle noire
+    - Remettre un sac dans le bac
+
+
+- title: Vider le composte
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#2ECC40"
+  description: |
+    - Vider les déchets dans le composte
+    - Nettoyer le seau à déchets
+
+
+- title: Laver le linge
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#FFDC00"
+  description: |
+
+
+- title: Secher le linge
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 1
+  color: "#FFDC00"
+  description: |
+    - Nettoyer les filtres
+    - Vider le reservoir d'eau
+
+- title: Desinfecter
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 2
+  color: "#F012BE"
+  description: |
+    - Poignées
+    - Interrupteurs
+    - Robinets
+
+- title: Aspirateur étage
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 3
+  color: "#0074D9"
+  description: |
+    - Palier
+    - Salle de bain
+    - Escalier
+    - Ranger l'aspirateur
+
+- title: Aspirateur rez-de-chaussée
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 3
+  color: "#0074D9"
+  description: |
+    - Palier
+    - Salle de bain
+    - Bureau
+    - Ranger l'aspirateur
+
+- title: Aspirateur salon
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 2
+  color: "#0074D9"
+  description: |
+    - Salon
+    - Cuisine
+    - Ranger l'aspirateur
+
+- title: Aspirateur sous-sol
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 3
+  color: "#0074D9"
+  description: |
+    - Escalier
+    - Palier
+    - Salle des fêtes
+    - Laverie
+    - Ranger l'aspirateur
+
+- title: Aspirateur chambre
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 2
+  color: "#B10DC9"
+  description: |
+    - Dans sa chambre
+    - Ranger l'aspirateur
+
+- title: Ranger sa chambre
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 2
+  color: "#B10DC9"
+  description: |
+    - Vêtements
+    - Affaires de classe
+    - Livres
+
+- title: Péparer le repas
+  icon: vaiselle.svg
+  cycle: daily
+  cost: 13
+  color: "#FF851B"
+  description: |

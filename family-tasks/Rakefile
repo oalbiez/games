@@ -1,0 +1,29 @@
+require 'squib'
+
+verso = '../common/ajiro-back.pdf'
+
+directory "_verso"
+directory "_publish"
+
+task default: [:deck]
+
+task :deck do
+  load 'deck.rb'
+end
+
+task :verso => [:deck, "_verso"] do
+  Dir["_output/*.pdf"].each do |pdf|
+    pages = `pdfinfo #{pdf} | awk '/Pages:/ {print $2}'`.to_i
+    name = File.basename(pdf, '.pdf')
+    shuffle = (1..pages).map {|i| "A#{i} B1"}.join(" ")
+    sh "pdftk A=#{pdf} B=#{verso} cat #{shuffle} output _verso/#{name}-verso.pdf"
+  end
+end
+
+task :publish => [:verso, "_publish"] do
+  Dir["data/*.yml"].map { |data| File.basename(data, '.yml') }.each do |lang|
+    parts = ["_verso/questions-#{lang}-verso.pdf", "_verso/answers-#{lang}-verso.pdf"].select { |e| File.file? e }
+
+    sh "pdftk #{parts.join(" ")} cat output _publish/#{lang}.pdf"
+  end
+end
