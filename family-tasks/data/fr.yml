@@ -2,7 +2,7 @@
   icon: vaiselle.svg
   cycle: daily
   cost: 1
-  color: nord_green
+  color: nord_yellow
   description: |
     -- vider le lave vaisselle
     -- veiller à ce que l'évier soit vidé
@@ -12,7 +12,7 @@
   icon: vaiselle.svg
   cycle: daily
   cost: 1
-  color: nord_green
+  color: nord_yellow
   description: |
     -- micro onde
     -- frigo
@@ -22,7 +22,7 @@
   icon: vaiselle.svg
   cycle: daily
   cost: 1
-  color: nord_green
+  color: nord_yellow
   description: |
     -- laver l'évier
     -- ranger la vaiselle sèche
@@ -33,7 +33,7 @@
   icon: vaiselle.svg
   cycle: daily
   cost: 1
-  color: nord_green
+  color: nord_yellow
   description: |
     -- Nettoyer la table
     -- Nettoyer l'ilot central
@@ -42,7 +42,7 @@
 
 
 - title: Vider les poubelles plastiques
-  icon: vaiselle.svg
+  icon: trash.svg
   cycle: daily
   cost: 1
   color: nord_green
@@ -52,7 +52,7 @@
 
 
 - title: Vider les poubelles cartons
-  icon: vaiselle.svg
+  icon: trash.svg
   cycle: daily
   cost: 1
   color: nord_green
@@ -63,7 +63,7 @@
 
 
 - title: Vider les poubelles dechets
-  icon: vaiselle.svg
+  icon: trash.svg
   cycle: daily
   cost: 1
   color: nord_green
@@ -73,7 +73,7 @@
 
 
 - title: Vider le composte
-  icon: vaiselle.svg
+  icon: trash.svg
   cycle: daily
   cost: 1
   color: nord_green
@@ -83,7 +83,7 @@
 
 
 - title: Laver le linge
-  icon: vaiselle.svg
+  icon: clothes.svg
   cycle: daily
   cost: 1
   color: nord_red
@@ -93,7 +93,7 @@
 
 
 - title: Secher le linge
-  icon: vaiselle.svg
+  icon: clothes.svg
   cycle: daily
   cost: 1
   color: nord_red
@@ -102,8 +102,20 @@
     -- Vider le reservoir d'eau
 
 
+- title: Laver les sols
+  icon: vacuum-cleaner.svg
+  cycle: daily
+  cost: 3
+  color: nord_blue
+  description: |
+    - Rez-de-chaussée
+    - Etage
+    - Sous-sol
+    - Ranger et vider l'eau
+
+
 - title: Aspirateur étage
-  icon: vaiselle.svg
+  icon: vacuum-cleaner.svg
   cycle: daily
   cost: 3
   color: nord_blue
@@ -115,7 +127,7 @@
 
 
 - title: Aspirateur robot au rez-de-chaussée
-  icon: vaiselle.svg
+  icon: vacuum-cleaner.svg
   cycle: daily
   cost: 3
   color: nord_blue
@@ -130,7 +142,7 @@
 
 
 - title: Aspirateur sous-sol
-  icon: vaiselle.svg
+  icon: vacuum-cleaner.svg
   cycle: daily
   cost: 3
   color: nord_blue
@@ -142,8 +154,19 @@
     -- Ranger l'aspirateur
 
 
+- title: Laver les sanitaires
+  icon: wc.svg
+  cycle: daily
+  cost: 3
+  color: nord_blue
+  description: |
+    - WC
+    - Eviers
+    - Baignoire
+
+
 - title: Ranger sa chambre
-  icon: vaiselle.svg
+  icon: library.svg
   cycle: daily
   cost: 2
   color: nord_red
@@ -155,8 +178,22 @@
 
 
 - title: Péparer le repas
-  icon: vaiselle.svg
+  icon: salad.svg
   cycle: daily
   cost: 13
   color: nord_orange
   description: |
+    -- Planifier les courses
+    -- Préparer les repas
+    -- Ranger le materiel
+
+
+- title: Faire les courses
+  icon: cart.svg
+  cycle: daily
+  cost: 13
+  color: nord_orange
+  description: |
+    -- Faire les courses
+    -- Ranger les courses
+    -- Ranger la réserve

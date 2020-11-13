@@ -15,8 +15,8 @@ Dir["data/*.yml"].each do |data|
 
     text str: tasks.map {|i| i['title'] }, layout: 'title'
     circle layout: 'art_section', fill_color: 'lightgray'
-    text str: tasks.map {|i| i['cost'] }, layout: 'art'
-    #svg file: tasks.map {|i| i['icon'] }, layout: 'art'
+    #text str: tasks.map {|i| i['cost'] }, layout: 'art'
+    svg file: tasks.map {|i| i['icon'] }, layout: 'art'
 
     rect layout: 'description_section', fill_color: '#ffffff80'
     text str: tasks.map {|i| i['description'] }, layout: 'description'
