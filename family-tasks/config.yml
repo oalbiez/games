@@ -14,10 +14,13 @@ antialias: best
 #  foo: '#abc'
 
 custom_colors:
+  nord_blue: '#5e81ac'
+  nord_red: '#bf616a'
+  nord_orange: '#d08770'
+  nord_yellow: '#ebcb8b'
+  nord_green: '#a3be8c'
+  nord_purple: '#b48ead'
   lightgray: '#f2f2f2'
-  ok_color: '#c6f1e7'
-  warning_color: '#ffe5c1'
-  ko_color: '#f5d6db'
 
 img_dir: images
 
